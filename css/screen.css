@@ -195,6 +195,10 @@ a:focus {
     padding: 48px 24px 24px;
 }
 
+.o-row--gradient {
+    background-image: linear-gradient(to right, #5051db, #4760e4, #406deb, #3a7af2, #3887f7);
+}
+
 .o-row—neutral-x-light {
     background-color: #F7F7F7;
 }
@@ -593,6 +597,20 @@ a:focus {
     background-color: #3E3EA8;
 }
 
+/* inverser */
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff;
+}
+
+.c-link-cta--inverse::after {
+    background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::after {
+    background-color: ##fff;
+}
 
 
 /*------------------------------------*\
@@ -881,6 +899,10 @@ a:focus {
 
 .u-color-primary-dark {
     color: #3E3EA8 !important;
+}
+
+.u-color-white {
+    color: white !important;
 }
 
 /*
